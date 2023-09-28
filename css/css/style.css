@@ -1,0 +1,78 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: grey;
+}
+
+*{
+   font-family: 'Roboto', sans-serif;
+}
+
+.home{
+    margin-top: 100px;
+}
+
+nav{
+    background-color: black;
+    height: 50px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    position: relative;
+    left: 450px;
+    top: 20px;
+}
+
+a:hover{
+    color: blue;
+    transition: color 1s;
+}
+
+.about,.work,.resume{
+    margin-top: 100px;
+}
+   
+img{
+    width: 500px;
+    margin-left: 350px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: 300px;
+  }
+  td,
+  th {
+    border: 1px solid black;
+    padding: 10px 20px;
+  }
+  
+  .left{
+    margin-left: 500px;
+  }
+   .contact{
+    margin-top: 200px;
+   }
+
+  .container-form{
+    margin-left: 500px;
+  }
+
+  h3{
+    margin-left: 100px;
+  }
+
+  input{
+    margin: 20px;
+  }
+
+  input[type="date"]{
+   width: 170px;
+  }
